@@ -1,0 +1,1 @@
+/* Dashboard module. The current interface controller is app.js. */
