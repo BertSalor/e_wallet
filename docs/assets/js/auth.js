@@ -1,1 +1,0 @@
-window.FinanceAuth = { me:()=>FinanceAPI.request('/auth/me'), login:data=>FinanceAPI.request('/auth/login',{method:'POST',body:JSON.stringify(data)}), register:data=>FinanceAPI.request('/auth/register',{method:'POST',body:JSON.stringify(data)}), logout:()=>FinanceAPI.request('/auth/logout',{method:'POST',body:'{}'}) };
